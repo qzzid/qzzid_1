@@ -205,7 +205,7 @@ public class MainUI {
 				stock.setWondu(stock.getWondu()-1);
 				stock.setMilk(stock.getMilk()-1);
 				stock.setSirup(stock.getSirup()-1);
-				showlabel("돌체라뗴",5100);
+				showlabel("돌체라떼",5100);
 			}
 		});
 		button_1.setBounds(200, 148, 100, 70);
