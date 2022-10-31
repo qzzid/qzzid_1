@@ -69,6 +69,7 @@ public class InventoryUI extends JFrame {
 		panel.add(scrollPane);
 		
 		JLabel lblNewLabel_1 = new JLabel("\uC7AC\uACE0\uD604\uD669");
+		
 		lblNewLabel_1.setFont(new Font("±¼¸²", Font.BOLD, 12));
 		lblNewLabel_1.setBounds(39, 26, 100, 20);
 		panel.add(lblNewLabel_1);
@@ -80,6 +81,7 @@ public class InventoryUI extends JFrame {
 		panel_1.setLayout(null);
 		
 		JButton btnNewButton = new JButton("\uC6D0\uB450");
+		btnNewButton.setBackground(new Color(173,209,188));
 		btnNewButton.addActionListener(new ActionListener() {
 			
 			public void actionPerformed(ActionEvent e) {
@@ -92,6 +94,7 @@ public class InventoryUI extends JFrame {
 		panel_1.add(btnNewButton);
 		
 		JButton btnNewButton_1 = new JButton("\uC6B0\uC720");
+		btnNewButton_1.setBackground(new Color(196,222,207));
 		btnNewButton_1.setBounds(153, 61, 100, 60);
 		panel_1.add(btnNewButton_1);
 		btnNewButton_1.addActionListener(new ActionListener() {
@@ -104,6 +107,7 @@ public class InventoryUI extends JFrame {
 		});
 		
 		JButton btnNewButton_2 = new JButton("\uC2DC\uB7FD");
+		btnNewButton_2.setBackground(new Color(173,209,188));
 		btnNewButton_2.setBounds(276, 60, 100, 60);
 		panel_1.add(btnNewButton_2);
 		btnNewButton_2.addActionListener(new ActionListener() {
@@ -115,6 +119,7 @@ public class InventoryUI extends JFrame {
 		});
 		
 		JButton btnNewButton_3 = new JButton("\uB538\uAE30");
+		btnNewButton_3.setBackground(new Color(196,222,207));
 		btnNewButton_3.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				stockname="µþ±â";
@@ -125,6 +130,7 @@ public class InventoryUI extends JFrame {
 		panel_1.add(btnNewButton_3);
 		
 		JButton btnNewButton_4 = new JButton("\uB9DD\uACE0");
+		btnNewButton_4.setBackground(new Color(176,196,222));
 		btnNewButton_4.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				stockname="¸Á°í";
@@ -135,6 +141,7 @@ public class InventoryUI extends JFrame {
 		panel_1.add(btnNewButton_4);
 		
 		JButton btnNewButton_5 = new JButton("\uB179\uCC28");
+		btnNewButton_5.setBackground(new Color(187,204,226));
 		btnNewButton_5.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				stockname="³ìÂ÷";
@@ -145,6 +152,7 @@ public class InventoryUI extends JFrame {
 		panel_1.add(btnNewButton_5);
 		
 		JButton btnNewButton_6 = new JButton("\uD64D\uCC28");
+		btnNewButton_6.setBackground(new Color(176,196,222));
 		btnNewButton_6.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				stockname="È«Â÷";
@@ -156,6 +164,7 @@ public class InventoryUI extends JFrame {
 		panel_1.add(btnNewButton_6);
 		
 		JButton btnNewButton_7 = new JButton("\uCD08\uCF54");
+		btnNewButton_7.setBackground(new Color(187,204,226));
 		btnNewButton_7.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				stockname="ÃÊÄÚ";
